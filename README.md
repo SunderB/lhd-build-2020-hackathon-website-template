@@ -1,19 +1,27 @@
 # Hackathon Jekyll Template
 
-[Check out the demo site](https://alex-cd.github.io/hackathon-template-jekyll/)
+[Check out the demo site](https://sunderb.github.io/lhd-build-2020-hackathon-website-template/)
 
 
 Forked from [the Royal Hackaway website](https://github.com/royalhackaway/royalhackaway.github.io).
 
-### What it is
+Created during LHD Build 2020 during the [Create a Hackathon for Something You Love workshop](https://organize.mlh.io/participants/events/6406-lhd-build-create-a-hackathon-brand-for-something-you-love)
 
-A starting point for hackathon organisers to build websites for their events.
-Plop in some event files, and this jekyll site will do the rest.
+## Build instructions
+### Dependencies
+* ruby
 
-Forked from the [Royal Hackaway](https://github.com/royalhackaway/royalhackaway.github.io) website, which I rebuilt for 2018-19 hackathon season.
+### Install the ruby gems
+```bash
+bundle install --path=vendor/bundle
+```
 
+### Serve locally
+```bash
+bundle exec jekyll serve
+```
 
-### What it's built with
+## What it's built with
 
 Written in: HTML, Javascript, CSS
 (_I don't think I need to link these..._)
